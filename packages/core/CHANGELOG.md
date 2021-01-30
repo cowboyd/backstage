@@ -1,5 +1,13 @@
 # @backstage/core
 
+## 0.5.1
+
+### Patch Changes
+
+- 12ece98cd: Add className to the SidebarItem
+- da9f53c60: Add a `prop` union for `SignInPage` that allows it to be used for just a single provider, with inline errors, and optionally with automatic sign-in.
+- 32c95605f: Fix check that determines whether popup was closed or the messaging was misconfigured.
+
 ## 0.5.0
 
 ### Minor Changes

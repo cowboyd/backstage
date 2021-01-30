@@ -1,5 +1,14 @@
 # @backstage/cli
 
+## 0.5.1
+
+### Patch Changes
+
+- e9aab60c7: Fixed module resolution of external libraries during backend development. Modules used to be resolved relative to the backend entrypoint, but are now resolved relative to each individual module.
+- Updated dependencies [062df71db]
+- Updated dependencies [e9aab60c7]
+  - @backstage/config-loader@0.5.1
+
 ## 0.5.0
 
 ### Minor Changes
